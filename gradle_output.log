@@ -1,0 +1,146 @@
+Starting a Gradle Daemon, 1 stopped Daemon could not be reused, use --status for details
+> Task :compileJava
+> Task :processResources
+> Task :classes
+> Task :resolveMainClassName
+
+> Task :bootRun
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.1)
+
+2025-06-12T01:15:56.156+05:30  INFO 20153 --- [rent_read] [  restartedMain] com.crio.rent_read.RentReadApplication   : Starting RentReadApplication using Java 17.0.7 with PID 20153 (/tmp/gradle_builds/rent_read/rent_read/classes/java/main started by crio-user in /home/crio-user/workspace/sasutosh71-ME_BUILDOUT_RENTREAD)
+2025-06-12T01:15:56.164+05:30  INFO 20153 --- [rent_read] [  restartedMain] com.crio.rent_read.RentReadApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-06-12T01:15:56.280+05:30  INFO 20153 --- [rent_read] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-06-12T01:15:56.281+05:30  INFO 20153 --- [rent_read] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-06-12T01:15:57.421+05:30  INFO 20153 --- [rent_read] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-12T01:15:57.505+05:30  INFO 20153 --- [rent_read] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 71 ms. Found 3 JPA repository interfaces.
+2025-06-12T01:15:58.333+05:30  INFO 20153 --- [rent_read] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-06-12T01:15:58.349+05:30  INFO 20153 --- [rent_read] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-06-12T01:15:58.349+05:30  INFO 20153 --- [rent_read] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-06-12T01:15:58.403+05:30  INFO 20153 --- [rent_read] [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-06-12T01:15:58.405+05:30  INFO 20153 --- [rent_read] [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2122 ms
+2025-06-12T01:15:58.631+05:30  INFO 20153 --- [rent_read] [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-12T01:15:58.692+05:30  INFO 20153 --- [rent_read] [  restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.4.Final
+2025-06-12T01:15:58.728+05:30  INFO 20153 --- [rent_read] [  restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-06-12T01:15:59.064+05:30  INFO 20153 --- [rent_read] [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-12T01:15:59.113+05:30  INFO 20153 --- [rent_read] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-06-12T01:15:59.495+05:30  INFO 20153 --- [rent_read] [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@674985f5
+2025-06-12T01:15:59.497+05:30  INFO 20153 --- [rent_read] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-06-12T01:15:59.549+05:30  WARN 20153 --- [rent_read] [  restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 5.7.42 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2025-06-12T01:15:59.554+05:30  WARN 20153 --- [rent_read] [  restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-06-12T01:15:59.579+05:30  INFO 20153 --- [rent_read] [  restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 5.7.42
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-06-12T01:16:01.077+05:30  INFO 20153 --- [rent_read] [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-12T01:16:01.161+05:30  INFO 20153 --- [rent_read] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12T01:16:01.996+05:30  WARN 20153 --- [rent_read] [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-06-12T01:16:02.053+05:30  INFO 20153 --- [rent_read] [  restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-06-12T01:16:02.054+05:30  WARN 20153 --- [rent_read] [  restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-06-12T01:16:02.981+05:30  INFO 20153 --- [rent_read] [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-06-12T01:16:03.033+05:30  INFO 20153 --- [rent_read] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-06-12T01:16:03.049+05:30  INFO 20153 --- [rent_read] [  restartedMain] com.crio.rent_read.RentReadApplication   : Started RentReadApplication in 7.898 seconds (process running for 8.764)
+2025-06-12T01:16:04.427+05:30  INFO 20153 --- [rent_read] [nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12T01:16:04.428+05:30  INFO 20153 --- [rent_read] [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-06-12T01:16:04.430+05:30  INFO 20153 --- [rent_read] [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+Hibernate: select u1_0.id from users u1_0 where u1_0.email=? limit ?
+Hibernate: select next_val as id_val from users_seq for update
+Hibernate: update users_seq set next_val= ? where next_val=?
+Hibernate: insert into users (email,first_name,last_name,password,role,id) values (?,?,?,?,?,?)
+Hibernate: select u1_0.id,u1_0.email,u1_0.first_name,u1_0.last_name,u1_0.password,u1_0.role from users u1_0 where u1_0.email=?
+Hibernate: select u1_0.id from users u1_0 where u1_0.email=? limit ?
+Hibernate: insert into users (email,first_name,last_name,password,role,id) values (?,?,?,?,?,?)
+Hibernate: select u1_0.id,u1_0.email,u1_0.first_name,u1_0.last_name,u1_0.password,u1_0.role from users u1_0 where u1_0.email=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.first_name,u1_0.last_name,u1_0.password,u1_0.role from users u1_0 where u1_0.email=?
+2025-06-12T01:16:05.654+05:30  INFO 20153 --- [rent_read] [nio-8081-exec-7] com.crio.rent_read.service.UserService   : User found: admin.test.1749671164337@example.com
+Hibernate: select next_val as id_val from book_seq for update
+Hibernate: update book_seq set next_val= ? where next_val=?
+Hibernate: insert into book (author,availability_status,genre,title,id) values (?,?,?,?,?)
+Hibernate: select u1_0.id,u1_0.email,u1_0.first_name,u1_0.last_name,u1_0.password,u1_0.role from users u1_0 where u1_0.email=?
+2025-06-12T01:16:05.887+05:30  INFO 20153 --- [rent_read] [nio-8081-exec-9] com.crio.rent_read.service.UserService   : User found: admin.test.1749671164337@example.com
+Hibernate: insert into book (author,availability_status,genre,title,id) values (?,?,?,?,?)
+Hibernate: select u1_0.id,u1_0.email,u1_0.first_name,u1_0.last_name,u1_0.password,u1_0.role from users u1_0 where u1_0.email=?
+2025-06-12T01:16:06.061+05:30  INFO 20153 --- [rent_read] [io-8081-exec-10] com.crio.rent_read.service.UserService   : User found: admin.test.1749671164337@example.com
+Hibernate: insert into book (author,availability_status,genre,title,id) values (?,?,?,?,?)
+Hibernate: select u1_0.id,u1_0.email,u1_0.first_name,u1_0.last_name,u1_0.password,u1_0.role from users u1_0 where u1_0.email=?
+2025-06-12T01:16:06.220+05:30  INFO 20153 --- [rent_read] [nio-8081-exec-4] com.crio.rent_read.service.UserService   : User found: admin.test.1749671164337@example.com
+Hibernate: insert into book (author,availability_status,genre,title,id) values (?,?,?,?,?)
+Hibernate: select u1_0.id,u1_0.email,u1_0.first_name,u1_0.last_name,u1_0.password,u1_0.role from users u1_0 where u1_0.email=?
+2025-06-12T01:16:06.370+05:30  INFO 20153 --- [rent_read] [nio-8081-exec-5] com.crio.rent_read.service.UserService   : User found: admin.test.1749671164337@example.com
+Hibernate: select b1_0.id,b1_0.author,b1_0.availability_status,b1_0.genre,b1_0.title from book b1_0 where b1_0.id=?
+Hibernate: select r1_0.book_id,r1_0.id,r1_0.rented_at,r1_0.returned_at,u1_0.id,u1_0.email,u1_0.first_name,u1_0.last_name,u1_0.password,u1_0.role from rental r1_0 left join users u1_0 on u1_0.id=r1_0.user_id where r1_0.book_id=?
+Hibernate: delete from book where id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.first_name,u1_0.last_name,u1_0.password,u1_0.role from users u1_0 where u1_0.email=?
+2025-06-12T01:16:06.543+05:30  INFO 20153 --- [rent_read] [nio-8081-exec-7] com.crio.rent_read.service.UserService   : User found: admin.test.1749671164337@example.com
+Hibernate: insert into book (author,availability_status,genre,title,id) values (?,?,?,?,?)
+Hibernate: select u1_0.id,u1_0.email,u1_0.first_name,u1_0.last_name,u1_0.password,u1_0.role from users u1_0 where u1_0.email=?
+2025-06-12T01:16:06.686+05:30  INFO 20153 --- [rent_read] [nio-8081-exec-8] com.crio.rent_read.service.UserService   : User found: admin.test.1749671164337@example.com
+Hibernate: insert into book (author,availability_status,genre,title,id) values (?,?,?,?,?)
+Hibernate: select u1_0.id,u1_0.email,u1_0.first_name,u1_0.last_name,u1_0.password,u1_0.role from users u1_0 where u1_0.email=?
+2025-06-12T01:16:06.833+05:30  INFO 20153 --- [rent_read] [nio-8081-exec-1] com.crio.rent_read.service.UserService   : User found: admin.test.1749671164337@example.com
+Hibernate: insert into book (author,availability_status,genre,title,id) values (?,?,?,?,?)
+Hibernate: select u1_0.id,u1_0.email,u1_0.first_name,u1_0.last_name,u1_0.password,u1_0.role from users u1_0 where u1_0.email=?
+2025-06-12T01:16:06.980+05:30  INFO 20153 --- [rent_read] [nio-8081-exec-4] com.crio.rent_read.service.UserService   : User found: admin.test.1749671164337@example.com
+Hibernate: insert into book (author,availability_status,genre,title,id) values (?,?,?,?,?)
+Hibernate: select u1_0.id,u1_0.email,u1_0.first_name,u1_0.last_name,u1_0.password,u1_0.role from users u1_0 where u1_0.email=?
+2025-06-12T01:16:07.127+05:30  INFO 20153 --- [rent_read] [nio-8081-exec-3] com.crio.rent_read.service.UserService   : User found: admin.test.1749671164337@example.com
+Hibernate: select b1_0.id,b1_0.author,b1_0.availability_status,b1_0.genre,b1_0.title from book b1_0 where b1_0.id=?
+Hibernate: update book set author=?,availability_status=?,genre=?,title=? where id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.first_name,u1_0.last_name,u1_0.password,u1_0.role from users u1_0 where u1_0.email=?
+2025-06-12T01:16:07.285+05:30  INFO 20153 --- [rent_read] [nio-8081-exec-6] com.crio.rent_read.service.UserService   : User found: user.test.1749671165179@example.com
+2025-06-12T01:16:07.423+05:30  WARN 20153 --- [rent_read] [nio-8081-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.security.authorization.AuthorizationDeniedException: Access Denied]
+Hibernate: select u1_0.id,u1_0.email,u1_0.first_name,u1_0.last_name,u1_0.password,u1_0.role from users u1_0 where u1_0.email=?
+2025-06-12T01:16:07.433+05:30  INFO 20153 --- [rent_read] [nio-8081-exec-9] com.crio.rent_read.service.UserService   : User found: user.test.1749671165179@example.com
+2025-06-12T01:16:07.564+05:30  WARN 20153 --- [rent_read] [nio-8081-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.security.authorization.AuthorizationDeniedException: Access Denied]
+Hibernate: select u1_0.id,u1_0.email,u1_0.first_name,u1_0.last_name,u1_0.password,u1_0.role from users u1_0 where u1_0.email=?
+2025-06-12T01:16:07.573+05:30  INFO 20153 --- [rent_read] [io-8081-exec-10] com.crio.rent_read.service.UserService   : User found: user.test.1749671165179@example.com
+2025-06-12T01:16:07.731+05:30  WARN 20153 --- [rent_read] [io-8081-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.security.authorization.AuthorizationDeniedException: Access Denied]
+Hibernate: select u1_0.id,u1_0.email,u1_0.first_name,u1_0.last_name,u1_0.password,u1_0.role from users u1_0 where u1_0.email=?
+2025-06-12T01:16:07.748+05:30  INFO 20153 --- [rent_read] [io-8081-exec-10] com.crio.rent_read.service.UserService   : User found: user.test.1749671165179@example.com
+Hibernate: select u1_0.id,u1_0.email,u1_0.first_name,u1_0.last_name,u1_0.password,u1_0.role from users u1_0 where u1_0.id=?
+Hibernate: select b1_0.id,b1_0.author,b1_0.availability_status,b1_0.genre,b1_0.title from book b1_0 where b1_0.id=?
+Hibernate: select r1_0.id,r1_0.book_id,r1_0.rented_at,r1_0.returned_at,r1_0.user_id from rental r1_0 where r1_0.user_id=? and r1_0.returned_at is null
+Hibernate: update book set author=?,availability_status=?,genre=?,title=? where id=?
+Hibernate: select next_val as id_val from rental_seq for update
+Hibernate: update rental_seq set next_val= ? where next_val=?
+Hibernate: insert into rental (book_id,rented_at,returned_at,user_id,id) values (?,?,?,?,?)
+Hibernate: select u1_0.id,u1_0.email,u1_0.first_name,u1_0.last_name,u1_0.password,u1_0.role from users u1_0 where u1_0.email=?
+2025-06-12T01:16:07.966+05:30  INFO 20153 --- [rent_read] [nio-8081-exec-4] com.crio.rent_read.service.UserService   : User found: user.test.1749671165179@example.com
+Hibernate: select u1_0.id,u1_0.email,u1_0.first_name,u1_0.last_name,u1_0.password,u1_0.role from users u1_0 where u1_0.id=?
+Hibernate: select b1_0.id,b1_0.author,b1_0.availability_status,b1_0.genre,b1_0.title from book b1_0 where b1_0.id=?
+Hibernate: select r1_0.id,r1_0.book_id,r1_0.rented_at,r1_0.returned_at,r1_0.user_id from rental r1_0 where r1_0.user_id=? and r1_0.returned_at is null
+Hibernate: select b1_0.id,b1_0.author,b1_0.availability_status,b1_0.genre,b1_0.title from book b1_0 where b1_0.id=?
+Hibernate: update book set author=?,availability_status=?,genre=?,title=? where id=?
+Hibernate: select next_val as id_val from rental_seq for update
+Hibernate: update rental_seq set next_val= ? where next_val=?
+Hibernate: insert into rental (book_id,rented_at,returned_at,user_id,id) values (?,?,?,?,?)
+Hibernate: select u1_0.id,u1_0.email,u1_0.first_name,u1_0.last_name,u1_0.password,u1_0.role from users u1_0 where u1_0.email=?
+2025-06-12T01:16:08.161+05:30  INFO 20153 --- [rent_read] [nio-8081-exec-5] com.crio.rent_read.service.UserService   : User found: user.test.1749671165179@example.com
+Hibernate: select u1_0.id,u1_0.email,u1_0.first_name,u1_0.last_name,u1_0.password,u1_0.role from users u1_0 where u1_0.id=?
+Hibernate: select b1_0.id,b1_0.author,b1_0.availability_status,b1_0.genre,b1_0.title from book b1_0 where b1_0.id=?
+Hibernate: select r1_0.id,r1_0.book_id,r1_0.rented_at,r1_0.returned_at,r1_0.user_id from rental r1_0 where r1_0.user_id=? and r1_0.returned_at is null
+Hibernate: select b1_0.id,b1_0.author,b1_0.availability_status,b1_0.genre,b1_0.title from book b1_0 where b1_0.id=?
+Hibernate: select b1_0.id,b1_0.author,b1_0.availability_status,b1_0.genre,b1_0.title from book b1_0 where b1_0.id=?
+2025-06-12T01:16:08.336+05:30  WARN 20153 --- [rent_read] [nio-8081-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.crio.rent_read.exception.RentalLimitExceededException: User has already reached maximum book rental limit!]
+Hibernate: select u1_0.id,u1_0.email,u1_0.first_name,u1_0.last_name,u1_0.password,u1_0.role from users u1_0 where u1_0.email=?
+2025-06-12T01:16:08.356+05:30  INFO 20153 --- [rent_read] [nio-8081-exec-6] com.crio.rent_read.service.UserService   : User found: user.test.1749671165179@example.com
+Hibernate: select u1_0.id,u1_0.email,u1_0.first_name,u1_0.last_name,u1_0.password,u1_0.role from users u1_0 where u1_0.id=?
+Hibernate: select r1_0.id,r1_0.book_id,r1_0.rented_at,r1_0.returned_at,r1_0.user_id from rental r1_0 where r1_0.user_id=? and r1_0.returned_at is null
+Hibernate: select b1_0.id,b1_0.author,b1_0.availability_status,b1_0.genre,b1_0.title from book b1_0 where b1_0.id=?
+Hibernate: select b1_0.id,b1_0.author,b1_0.availability_status,b1_0.genre,b1_0.title from book b1_0 where b1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.first_name,u1_0.last_name,u1_0.password,u1_0.role from users u1_0 where u1_0.email=?
+2025-06-12T01:16:08.520+05:30  INFO 20153 --- [rent_read] [nio-8081-exec-9] com.crio.rent_read.service.UserService   : User found: user.test.1749671165179@example.com
+Hibernate: select r1_0.id,b1_0.id,b1_0.author,b1_0.availability_status,b1_0.genre,b1_0.title,r1_0.rented_at,r1_0.returned_at,u1_0.id,u1_0.email,u1_0.first_name,u1_0.last_name,u1_0.password,u1_0.role from rental r1_0 left join book b1_0 on b1_0.id=r1_0.book_id left join users u1_0 on u1_0.id=r1_0.user_id where r1_0.id=?
+Hibernate: update book set author=?,availability_status=?,genre=?,title=? where id=?
+Hibernate: update rental set book_id=?,rented_at=?,returned_at=?,user_id=? where id=?
